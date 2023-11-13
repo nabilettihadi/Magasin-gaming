@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="title">ARK</div>
+            <div class="nav">
+                <a href="home.html" class="menu">Home</a>
+                <a href="catalogue.html" class="menu">Catalogue</a>
+                <a href="personnalisation.html" class="menu">Personnalisation</a>
+                <a href="devis.html" class="menu">Devis</a>
+                <a href="about.html" class="menu">About Us</a>
+            </div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+            <div class="icon-favor">
+                <img src="image/pixel-heart.png" alt="Heart">
+                <span>0</span>
+            </div>
+            <a href="contactus.html" class="contact">Contact Us</a>
+        </header>
+        <div class="promo">
+            <h1 class="titre">ARKADE</h1>
+            <p class="text1">"Unlock a world of gaming wonders at Arkade. Elevate your playtime with our treasure trove of games, consoles, and gear."</p>
+            <h2 class="off" id="Promotions">Offers</h2>
+            <div class="first-cards" >
+                <div class="pic">
+                    <img src="image/Chaises & Bureau Gaming.jpg" alt="accessoires">
+                    <div class="promotion">-40%</div>
+                    <div class="first-price">500$</div>
+                    <div class="price-promo">445$</div>
+                </div>
+                <div class="pic">
+                    <img src="image/pc_gamer.jpg" alt="accessoires">
+                    <div class="promotion">-50%</div>
+                    <div class="first-price">400$</div>
+                    <div class="price-promo">305$</div>
+                </div>
+                <div class="pic">
+                    <img src="image/setupgamer.jpg" alt="accessoires">
+                    <div class="promotion">-10%</div>
+                    <div class="first-price">600$</div>
+                    <div class="price-promo">445$</div>
+                </div>
+            </div>
+            <h2 class="off">our store</h2>
+        </div>
+        <div class="principalList">
+            <div class="listAll">
+                <div class="list-before">
+                    <div class="categorieBtn" data-categorie="pcGamer">
+                        <img src="image/pc.png" alt="PC Gamer">
+                        <h2>PC Gamer</h2>
+                    </div>
+                    <div class="categorieBtn" data-categorie="accessoires">
+                        <img src="image/accessoires.png" alt="accessoires">
+                        <h2>accessoires</h2>
+                    </div>
+                    <div class="categorieBtn" data-categorie="pcportable">
+                        <img src="image/pcportable.png" alt="Pc Portable">
+                        <h2>Pc Portable</h2>
+                    </div>
+                    <div class="categorieBtn" data-categorie="ecrantEtMoniteursPc">
+                        <img src="image/ecrans.png" alt="Écrans et Moniteurs PC">
+                        <h2>Écrans et Moniteurs PC </h2>
+                    </div>
+                    <div class="categorieBtn" data-categorie="chaisesEtBureauGaming">
+                        <img src="image/complet.png" alt="Chaises & Bureau Gaming">
+                        <h2>Chaises & Bureau Gaming</h2>
+                    </div>
+                    <div>
+                        <a href="#Promotions"  class="promos">
+                            <img src="image/promo.png" alt="prpomotion">
+                            <h2>Promotions</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="list-after">
+                    <h3 class="titleTop">MEILLEURES VENTES</h3>
+                    <div class="ventes">
+                        <img src="image/7.png" alt="casque">
+                        <p class="description">discription du produits</p>
+                    </div>
+                    <div class="ventes">
+                        <img src="image/8.png" alt="casque">
+                        <p class="description">discription du produits</p>
+                    </div>
+                    <div class="ventes">
+                        <img src="image/9.png" alt="casque">
+                        <p class="description">discription du produits</p>
+                    </div>
+                </div>
+            </div>
+            <div id="catalogue">
+                <div class="listProduct"></div>
+                <div id="pagination" class="pages"></div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="cartTab">
+        <div>
+            <h1>Shopping Cart</h1>
+            <button class="close"><img src="image/close.png" alt="close"></button>
+        </div>
+        <div class="listCart">
+        </div>
+        <div class="btn">
+            <button class="close">valider</button>
+            <button class="checkOut"><a href="devis.html">CHECKOUT</a></button>
+        </div>
+    </div>
+    <div class="cartFavor">
+        <div>
+            <h1>Favorites products</h1>
+            <button class="closeFavor"><img src="image/close.png" alt="close"></button>
+        </div>
+        <div class="listFavor">
+        </div>
+        <div class="btn">
+            <button class="checkOutFavor"><a href="devis.html" class="out">Vlider</a></button>
+            <button class="checkOut"><a href="devis.html" class="out">CHECKOUT</a></button>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <hr class="footer-horizontale">
+            <h1 class="footer-title">NEED HELP ?</h1>
+            <hr class="footer-horizontale">
+        </div>
+        <br>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2 class="footer-subtitle">A COMPLETE FAQ</h2>
+                <hr class="section-divider">
+                <h3 class="footer-subtitle">AND DETAILED ANSWERS</h3>
+                <p class="footer-text">Others may have had the same questions</p>
+                <br>
+                <a class="footer-link" href="home.html">FAQ</a>
+                <br><br>
+                <p class="footer-text">Did not find what you were looking for? Contact us!</p>
+                <br>
+                <a class="footer-link" href="contactus.html">Contact Us</a>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-section">
+                <h2 class="footer-subtitle">GAMING EXPERTS</h2>
+                <hr class="section-divider">
+                <h3 class="footer-subtitle">AT YOUR SERVICE</h3>
+                <p class="footer-text">By Phone (Monday-Friday: 9h-13h30)</p>
+                <br>
+                <a class="footer-link">+212-123456789</a>
+                <br><br>
+                <p class="footer-text">CHECK US OUT ON SOCIAL MEDIA</p>
+                <div class="social-media-icons">
+                    <img src="image/instagramme.png" alt="Instagram" class="insta">
+                    <img src="image/facebook.png" alt="Facebook" class="facebook">
+                    <img src="image/whatsapp.png" alt="WhatsApp" class="whatsapp">
+                </div>
+            </div>
+        </div>
+        <p class="footer-right">ALL RIGHTS RESERVED © Nightcrawler 2023</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

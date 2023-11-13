@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="devis.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="title">ARK</div>
+            <div class="nav">
+                <a href="home.html" class="menu">Home</a>
+                <a href="catalogue.html" class="menu">Catalogue</a>
+                <a href="personnalisation.html" class="menu">Personnalisation</a>
+                <a href="devis.html" class="menu">Devis</a>
+                <a href="about.html" class="menu">About Us</a>
+            </div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+            <div class="icon-favor">
+                <img src="image/pixel-heart.png" alt="Heart">
+                <span>0</span>
+            </div>
+            <a href="contactus.html" class="contact">Contact Us</a>
+        </header>
+        <div class="promo">
+            <h1 class="titre">ARKADE</h1>
+    
+    <div class="container">
+        <div class="checkoutLayout">
+            
+            <div class="returnCart">
+                <a href="catalogue.html">Keep Shopping</a>
+                <h1>List Product in Cart</h1>
+                <div class="cart-item-info">
+                </div>
+            </div>
+            <div class="returnToo">
+                <div class="rightToo">
+                    <div>Total Quantity</div>
+                    <div class="totalQuantity">0</div>
+                </div>
+                <div class="rightToo">
+                    <div>Total Price</div>
+                    <div class="totalPrice">$0</div>
+                </div>
+                <form action="message" class="note">
+                <textarea name="text" id="text" cols="20" rows="5" placeholder="Additional note"></textarea>
+                </form>
+                <form class="checkbox">
+                    <input type="checkbox">
+                    <label for="text">I agree to terms and conditions</label>
+                </form>
+                <div class="button">
+                    <a href="devis.html" class="out">Checkout</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="right">
+            <h1 id="checkout">Checkout</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+
+                <div class="group">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address">
+                </div>
+
+                <div class="group">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="">Choose..</option>
+                        <option value="">USA</option>
+                        <option value="">UAE</option>
+                        <option value="">Morocco</option>
+                        <option value="">Spain</option>
+                    </select>
+                </div>
+
+                <div class="group">
+                    <label for="city">City</label>
+                    <select name="city" id="city">
+                        <option value="">Choose..</option>
+                        <option value="">London</option>
+                        <option value="">Paris</option>
+                        <option value="">Casablanca</option>
+                        <option value="">Safi</option>
+                    </select>
+                </div>
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>Total Quantity</div>
+                    <div class="totalQuantity">0</div>
+                </div>
+                <div class="row">
+                    <div>Total Price</div>
+                    <div class="totalPrice">$0</div>
+                </div>
+            </div>
+            <button class="buttonCheckout">CHECKOUT</button>
+            </div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut"><a href="devis.html">CHECKOUT</a></button>
+        </div>
+    </div>
+    <div class="cartFavor">
+        <h1>Favorites products</h1>
+        <div class="listFavor">
+        </div>
+        <div class="btn">
+            <button class="closeFavor">CLOSE</button>
+            <button class="checkOutFavor"><a href="devis.html" class="out">CHECKOUT</a></button>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <hr class="footer-horizontale">
+            <h1 class="footer-title">NEED HELP ?</h1>
+            <hr class="footer-horizontale">
+        </div>
+        <br>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2 class="footer-subtitle">A COMPLETE FAQ</h2>
+                <hr class="section-divider">
+                <h3 class="footer-subtitle">AND DETAILED ANSWERS</h3>
+                <p class="footer-text">Others may have had the same questions</p>
+                <br>
+                <a class="footer-link" href="home.html">FAQ</a>
+                <br><br>
+                <p class="footer-text">Did not find what you were looking for? Contact us!</p>
+                <br>
+                <a class="footer-link" href="contactus.html">Contact Us</a>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-section">
+                <h2 class="footer-subtitle">GAMING EXPERTS</h2>
+                <hr class="section-divider">
+                <h3 class="footer-subtitle">AT YOUR SERVICE</h3>
+                <p class="footer-text">By Phone (Monday-Friday: 9h-13h30)</p>
+                <br>
+                <a class="footer-link">+212-123456789</a>
+                <br><br>
+                <p class="footer-text">CHECK US OUT ON SOCIAL MEDIA</p>
+                <div class="social-media-icons">
+                    <img src="image/instagramme.png" alt="Instagram" class="insta">
+                    <img src="image/facebook.png" alt="Facebook" class="facebook">
+                    <img src="image/whatsapp.png" alt="WhatsApp" class="whatsapp">
+                </div>
+            </div>
+        </div>
+        <p class="footer-right">ALL RIGHTS RESERVED © Nightcrawler 2023</p>
+    </footer>
+
+    <script src="devis.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
